@@ -1,0 +1,13 @@
+title: Meyparking — Documentación legal
+description: Política de privacidad y términos de uso de la app Meyparking (uso interno MEYPAR).
+theme: jekyll-theme-cayman
+lang: es
+
+plugins:
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
