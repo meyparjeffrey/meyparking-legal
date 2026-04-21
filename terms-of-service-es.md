@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Terminos de servicio - Meyparking"
-description: "Terminos de uso de la aplicacion Meyparking (Android y Android Auto)."
+title: "Términos de servicio — Meyparking"
+description: "Términos de uso de la aplicación Meyparking (Android y Android Auto)."
 permalink: /terms-of-service-es.html
 ---
 
