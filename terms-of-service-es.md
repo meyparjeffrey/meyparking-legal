@@ -35,7 +35,7 @@ Meyparking es una herramienta que permite:
 
 - Guardar una lista de parkings con su telÃ©fono y coordenadas.
 - Llamar al parking seleccionado con un toque, tambiÃ©n desde Android Auto.
-- Recibir un aviso en el dispositivo al aproximarse a un parking configurado.
+- Ver la distancia al parking y avisos de proximidad **con la app abierta** o **con Android Auto activo** (sin ubicaciÃ³n en segundo plano).
 
 El servicio se presta **â€œtal cualâ€**, con la diligencia razonable y sin que MEYPAR pueda garantizar disponibilidad absoluta, ausencia total de errores ni idoneidad para un fin especÃ­fico distinto al descrito.
 
