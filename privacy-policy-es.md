@@ -1,13 +1,10 @@
 ---
 layout: default
-title: Política de privacidad — Meyparking
-description: Política de privacidad específica de la aplicación móvil Meyparking (Android + Android Auto) de MEYPAR.
+title: "Política de privacidad — Meyparking"
+description: "Política de privacidad específica de la aplicación móvil Meyparking (Android y Android Auto)."
 permalink: /privacy-policy-es.html
 ---
-
 # Política de Privacidad — Meyparking
-
-[← Volver al índice](./)
 
 > **Aplicable a:** aplicación móvil **Meyparking** para Android y Android Auto.
 > Complementa, a los solos efectos del tratamiento de datos realizado por la app, la [Política de Privacidad general de meypar.com](https://meypar.com/politica-de-privacidad/).
@@ -53,8 +50,9 @@ Estos datos se guardan **exclusivamente en el almacenamiento local privado del d
 |---|---|---|---|
 | **Ubicación precisa (GPS)** | Cuando abres la app y tienes concedido el permiso | Mostrar tu posición en el mapa, calcular distancia al parking, activar el radar de proximidad | No |
 | **Ubicación aproximada** | Fallback si rechazas la ubicación precisa | Mostrar ubicación general en el mapa | No |
-| **Ubicación en segundo plano** (`ACCESS_BACKGROUND_LOCATION`) | Solo si activas “proximidad” y concedes el permiso específico | Enviarte una notificación cuando llegas al parking, sin que tengas la app abierta | No |
 | **Historial local de llamadas** (fecha, parking llamado, duración) | Cada vez que pulsas “Llamar” | Mostrarte tu propio historial en la pantalla Historial | No |
+
+> La app **no utiliza ubicación en segundo plano**. Toda la proximidad funciona únicamente con Meyparking abierta o con Android Auto activo.
 
 ### 2.3 Datos que la app **NO** recopila
 
@@ -87,7 +85,7 @@ Ni OpenFreeMap ni Nominatim reciben datos personales identificativos: solo las c
 ## 4. Base legal del tratamiento (RGPD art. 6)
 
 - **Ejecución del servicio (art. 6.1.b)** — para que la app funcione como esperas: guardar parkings, mostrar mapa, llamar al parking configurado.
-- **Consentimiento explícito (art. 6.1.a)** — para acceder a la ubicación (pedido en *runtime* por Android) y para activar la proximidad en segundo plano.
+- **Consentimiento explícito (art. 6.1.a)** — para acceder a la ubicación (pedido en *runtime* por Android) al usar el mapa y la proximidad con la app abierta o con Android Auto activo.
 
 Puedes **retirar el consentimiento en cualquier momento** desactivando los permisos en Ajustes de Android → Apps → Meyparking → Permisos. La app seguirá funcionando sin las funciones que dependan de ese permiso.
 
