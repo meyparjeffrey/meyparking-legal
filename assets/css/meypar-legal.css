@@ -1,0 +1,233 @@
+/**
+ * Estilos legales GitHub Pages — marca MEYPAR.
+ * Colores alineados con la app (Color.kt) y con el sitio meypar.com (tema LTW Aqua / Tailwind: #e62144).
+ */
+:root {
+  --meypar-red: #e62144;
+  --meypar-red-dark: #c41a38;
+  --meypar-black: #121212;
+  --meypar-grey-dark: #151515;
+  --meypar-grey: #7f7f7f;
+  --meypar-grey-light: #f0f0f0;
+  --meypar-white: #ffffff;
+  --meypar-pearl: #f0ede6;
+  --meypar-border: #e5e5e5;
+  --meypar-max-width: 52rem;
+  --meypar-radius: 12px;
+  --meypar-shadow: 0 4px 24px rgba(18, 18, 18, 0.08);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family:
+    "Inter",
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--meypar-black);
+  background: var(--meypar-grey-light);
+}
+
+/* Cabecera marca */
+.site-header {
+  background: linear-gradient(165deg, var(--meypar-black) 0%, var(--meypar-grey-dark) 55%, #1a1a1a 100%);
+  color: var(--meypar-white);
+  padding: 2.25rem 1.5rem 2.5rem;
+  border-bottom: 4px solid var(--meypar-red);
+  box-shadow: var(--meypar-shadow);
+}
+
+.site-header__inner {
+  max-width: var(--meypar-max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 1.5rem;
+}
+
+.site-header__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.site-header__logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  object-fit: contain;
+  background: var(--meypar-white);
+  padding: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.site-header__titles {
+  flex: 1;
+  min-width: 200px;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: clamp(1.35rem, 4vw, 1.75rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.site-header .tagline {
+  margin: 0.35rem 0 0;
+  font-size: 0.95rem;
+  color: var(--meypar-grey);
+  font-weight: 400;
+  max-width: 36rem;
+}
+
+/* Contenido */
+.main-content {
+  max-width: var(--meypar-max-width);
+  margin: -1.25rem auto 0;
+  padding: 0 1.25rem 3rem;
+}
+
+.main-content__card {
+  background: var(--meypar-white);
+  border-radius: var(--meypar-radius);
+  padding: 2rem 1.75rem 2.25rem;
+  box-shadow: var(--meypar-shadow);
+  border: 1px solid var(--meypar-border);
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  color: var(--meypar-black);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-top: 1.75rem;
+  margin-bottom: 0.65rem;
+}
+
+.main-content h1:first-child {
+  margin-top: 0;
+}
+
+.main-content h2 {
+  font-size: 1.25rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid var(--meypar-pearl);
+}
+
+.main-content a {
+  color: var(--meypar-red);
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.main-content a:hover {
+  color: var(--meypar-red-dark);
+  border-bottom-color: var(--meypar-red-dark);
+}
+
+.main-content hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--meypar-border), transparent);
+  margin: 2rem 0;
+}
+
+.main-content table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  margin: 1rem 0;
+}
+
+.main-content th,
+.main-content td {
+  border: 1px solid var(--meypar-border);
+  padding: 0.5rem 0.65rem;
+  text-align: left;
+}
+
+.main-content th {
+  background: var(--meypar-pearl);
+  font-weight: 600;
+}
+
+.main-content blockquote {
+  margin: 1.25rem 0;
+  padding: 0.75rem 1rem 0.75rem 1rem;
+  border-left: 4px solid var(--meypar-red);
+  background: rgba(230, 33, 68, 0.06);
+  border-radius: 0 var(--meypar-radius) var(--meypar-radius) 0;
+  color: #333;
+}
+
+.main-content ul,
+.main-content ol {
+  padding-left: 1.35rem;
+}
+
+.main-content code {
+  font-size: 0.88em;
+  background: var(--meypar-pearl);
+  padding: 0.12em 0.35em;
+  border-radius: 4px;
+}
+
+/* Pie */
+.site-footer {
+  max-width: var(--meypar-max-width);
+  margin: 0 auto;
+  padding: 2rem 1.25rem 2.5rem;
+  text-align: center;
+  font-size: 0.88rem;
+  color: var(--meypar-grey);
+}
+
+.site-footer a {
+  color: var(--meypar-red);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.site-footer a:hover {
+  color: var(--meypar-red-dark);
+}
+
+.site-footer__line {
+  display: block;
+  margin: 0.35rem 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .main-content a {
+    transition: none;
+  }
+}
