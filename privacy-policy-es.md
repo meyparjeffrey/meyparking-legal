@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Politica de privacidad - Meyparking"
-description: "Politica de privacidad especifica de la aplicacion Meyparking (Android y Android Auto)."
+title: "Política de privacidad — Meyparking"
+description: "Política de privacidad específica de la aplicación Meyparking (Android y Android Auto)."
 permalink: /privacy-policy-es.html
 ---
 
