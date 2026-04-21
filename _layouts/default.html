@@ -1,30 +1,55 @@
 <!doctype html>
-<html lang="{{ site.lang | default: site.github.url | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'es' }}">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="theme-color" content="#121212">
+    <link rel="icon" type="image/png" href="https://meypar.com/wp-content/uploads/2024/10/favicon-meypar.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/meypar-legal.css' | relative_url }}">
 {% seo %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+    <header class="site-header" role="banner">
+      <div class="site-header__inner">
+        <a class="site-header__brand" href="https://meypar.com/" rel="noopener noreferrer" title="Meypar">
+          <img
+            class="site-header__logo"
+            src="https://meypar.com/wp-content/uploads/2024/10/favicon-meypar.png"
+            width="48"
+            height="48"
+            alt="Meypar"
+          >
+          <div class="site-header__titles">
+            {% comment %}El H1 principal del texto legal está en el markdown; cabecera = marca + contexto.{% endcomment %}
+            <h1>Meyparking — documentación legal</h1>
+            <p class="tagline">{{ page.description | default: site.description }}</p>
+          </div>
+        </a>
+      </div>
     </header>
 
     <main id="content" class="main-content" role="main">
-      {{ content }}
-
-      <footer class="site-footer">
-        <span class="site-footer-owner">Meyparking &mdash; Documentaci&oacute;n legal</span>
-        <span class="site-footer-credits">Uso interno MEYPAR.</span>
-      </footer>
+      <article class="main-content__card">
+        {{ content }}
+      </article>
     </main>
+
+    <footer class="site-footer">
+      <span class="site-footer__line">
+        <strong>MEYPAR</strong> — Maquinaria Estacionamientos y Parkímetros, S.L.
+      </span>
+      <span class="site-footer__line">
+        Documentación legal de la app <strong>Meyparking</strong> (uso interno).
+      </span>
+      <span class="site-footer__line">
+        <a href="https://meypar.com/">meypar.com</a>
+        &nbsp;·&nbsp;
+        <a href="{{ '/' | relative_url }}">Índice legal</a>
+      </span>
+    </footer>
   </body>
 </html>
