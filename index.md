@@ -1,24 +1,20 @@
 ---
 layout: default
-title: Meyparking — Documentación legal
+title: "Índice — documentación legal Meyparking"
+description: "Política de privacidad y términos de servicio de la aplicación Meyparking (MEYPAR)."
 ---
 
-# Meyparking — Documentación legal
+# Documentación legal — Meyparking
 
-Sitio estático con la documentación legal de la aplicación **Meyparking** (Android + Android Auto) de **Maquinaria Estacionamientos y Parkímetros, S.L.** (MEYPAR).
+Textos para **Google Play Console** y referencia pública mínima. La versión integrada en la app puede actualizarse en el mismo release; esta web refleja la copia publicada en la fecha indicada en cada documento.
 
-Uso interno MEYPAR — distribución privada por Google Play.
+## Enlaces
 
-## Documentos
+- **[Política de privacidad](privacy-policy-es.html)** — tratamiento de datos de la app Meyparking.
+- **[Términos de servicio](terms-of-service-es.html)** — condiciones de uso de la app.
 
-- [Política de privacidad](privacy-policy-es) — Cómo usa Meyparking los datos personales.
-- [Términos de uso](terms-of-service-es) — Condiciones de uso de la app.
+## Web corporativa
 
-## Contacto
-
-- **Responsable:** Maquinaria Estacionamientos y Parkímetros, S.L.
-- **NIF:** B63650071
-- **Dirección:** Avda. Ragull, 50 — Sant Cugat del Vallès, Barcelona (Spain)
-- **Teléfono:** (+34) 93 544 29 33
-- **Email (privacidad y legal):** [meypar@meypar.com](mailto:meypar@meypar.com)
-- **Web corporativa:** <https://meypar.com>
+- [meypar.com](https://meypar.com/)
+- [Política de privacidad general (web)](https://meypar.com/politica-de-privacidad/)
+- [Aviso legal (web)](https://meypar.com/aviso-legal/)
