@@ -1,10 +1,13 @@
-title: Meyparking — Documentación legal
-description: Política de privacidad y términos de uso de la app Meyparking (uso interno MEYPAR).
-theme: jekyll-theme-cayman
+# Sitio legal público mínimo para Play Console — marca MEYPAR.
+# Sin tema Jekyll remoto: el aspecto lo define _layouts/default.html + assets/css/meypar-legal.css
+title: "Meyparking — Documentación legal"
+description: "Política de privacidad y términos de uso de la app Meyparking (uso interno MEYPAR)."
 lang: es
 
 plugins:
   - jekyll-seo-tag
+
+# Sin `theme:` remoto: el diseño es 100% propio (_layouts + assets) para alinear con meypar.com.
 
 defaults:
   - scope:
